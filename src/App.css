@@ -3,7 +3,8 @@
   display: flex; /* Use flexbox for the entire nav */
   justify-content: space-between; /* Space between the nav links and the button */
   align-items: center; /* Center the items vertically */
-  padding: 0 20px; /* Optional: Add padding to the left and right */
+  padding: 25px 25px; /* Optional: Add padding to the left and right */
+  background-color: var(--secondary-background-color);
 }
 
 .topnav ul {
@@ -186,7 +187,6 @@ input[type="submit"]:hover {
   background-color: var(--background-color);
   color: var(--text);
   height: 100vh;
-  padding: 2rem;
   text-align: center;
   transition: all 0.2s;
 }
@@ -194,12 +194,14 @@ input[type="submit"]:hover {
 .dark-mode {
   --text: rgba(255, 255, 255, 0.87);
   --background-color: #242424;
+  --secondary-background-color: #333231;
   --button-background-color: #1a1a1a;
 }
 
 .light-mode {
   --text: #213547;
   --background-color: #ffffff;
+  --secondary-background-color: #dad8d4;
   --button-background-color: #f9f9f9;
 }
 
