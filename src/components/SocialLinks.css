@@ -1,0 +1,17 @@
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-link:hover {
+    background-color: #ddd;
+  }
+  
+  .social-link .fa-icon {
+    margin-right: 5px;
+  }
